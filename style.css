@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 16px;
+}
+
+.form{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #504985;
+    text-shadow: 1px 1px 1px #2d294b;
+
+}
+form {
+    width: 300px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 4% auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #a9bae64a;
+}
+.box {
+    padding-bottom: 10px;
+}
+
+.news{
+    display: flex;
+    align-items: center;
+}
+.chk{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 7px;
+}
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type=text]{
+        outline: none;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #466681;
+    border-color: #1770ac;
+    box-shadow: 0 3px 0 #454b79;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #364f64;
+    border-color: #202835;
+}
+
+.input-3{
+    border:1px solid #01cc40!important;
+}
+select{
+    outline: none!important;
+}
+.input-4{
+    border:1px solid red;
+}
+
+.input-1{
+    border:1px solid #01cc40;
+}
+.input-2{
+    border:1px solid red;
+}
